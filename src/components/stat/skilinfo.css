@@ -1,0 +1,16 @@
+.progress_circle {
+    position: relative;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+  }
+  
+  .icon_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust as needed */
+    color: #ffffff; /* Adjust as needed */
+  }
+
+  

@@ -1,0 +1,116 @@
+.about_container,
+.info_list {
+  color: aliceblue;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 30px;
+}
+.info_list {
+  row-gap: 30px;
+
+  margin-top: 40px;
+}
+.about_section_title {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.section_subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 30px;
+  border-color: 1px solid aliceblue;
+}
+.about_section_title span {
+  color: var(--blue-theme-main-color);
+}
+
+.info_list .info_title,
+.info_list .info_value {
+  font-size: 20px;
+}
+.info_list .info_value {
+  color: var(--blue-theme-main-color);
+}
+
+.info_item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1px;
+}
+
+.about_para {
+  margin-top: 51px;
+  margin-right: 30px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_para p {
+  text-indent: 30px;
+  line-height: 30px;
+  margin-top: 35px;
+  padding: 20px;
+  border-top: 1px solid var(--blue-theme-main-color);
+  border-bottom: 2px solid silver;
+  border-radius: 10px;
+  border-collapse: collapse;
+  border-bottom-color: azure;
+}
+
+.dwldcv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  button {
+    background-color: rgba(0, 0, 0, 0.175);
+    border: 2px solid white;
+    color: aliceblue;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s;
+    font-weight: 500;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  button:hover {
+    color: black;
+    background-color: aliceblue;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  ul.info_list.grid {
+    grid-template-columns: repeat(1, 340px);
+    justify-items: center;
+  }
+  .about_container,
+  .info_list {
+    color: aliceblue;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 20px;
+    align-items: center;
+  }
+  .section_subtitle {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 50px;
+    border-color: 1px solid aliceblue;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
+  .about_para{
+    margin-top: -36px;
+  }
+
+  button{
+    margin-bottom: 50px;
+  }
+}
