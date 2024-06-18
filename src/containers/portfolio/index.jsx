@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles.scss"
 import Portgrid from './Portgrid'
-import { easeOut, motion as m } from "framer-motion";
+import { motion as m } from "framer-motion";
 const Portfolio = () => {
   
   return (

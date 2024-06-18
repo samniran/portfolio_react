@@ -2,8 +2,8 @@ import React from "react";
 import Info from "../../components/stat/info";
 import "./styles.scss";
 import { GiBlackBook } from "react-icons/gi";
-import { easeOut, motion as m } from "framer-motion";
-import { Link } from "react-router-dom";
+import { motion as m } from "framer-motion";
+
 import resume from "../../components/resume.pdf";
 
 

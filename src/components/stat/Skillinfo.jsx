@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOMServer from 'react-dom/server'
+
 import { CircularProgressbar,buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { FaHtml5 ,FaCss3Alt,FaPython,FaJava,FaReact,FaCloud} from "react-icons/fa";
@@ -9,52 +9,50 @@ import "./skilinfo.css"
 const skills = [
   {
     id: "1",
-    title:"Html",
+    title: "Html",
     icon: <FaHtml5 size={60} />,
-    percentage: "60",
+    percentage: "60"
   },
   {
     id: "2",
     title: "Css",
-    icon:<FaCss3Alt size={60} />,
+    icon: <FaCss3Alt size={60} />,
     percentage: "45",
   },
   {
     id: "3",
     title: "Javascript",
-    icon:<IoLogoJavascript size={60} />,
+    icon: <IoLogoJavascript size={60} />,
     percentage: "48",
   },
   {
     id: "4",
     title: "React Js",
-    icon:<FaReact size={60}  />,
+    icon: <FaReact size={60} />,
     percentage: "20",
   },
   {
     id: "5",
     title: "Python",
-    icon:<FaPython size={60} />,
+    icon: <FaPython size={60} />,
     percentage: "50",
   },
   {
     id: "6",
     title: "Java",
-    icon:<FaJava size={60} />,
+    icon: <FaJava size={60} />,
     percentage: "44",
   },
-  ,
   {
     id: "7",
     title: "Embedded C",
-    icon:<FaMicrochip size={60}  />,
+    icon: <FaMicrochip size={60} />,
     percentage: "30",
   },
-  ,
   {
     id: "8",
     title: "IoT",
-    icon:<FaCloud size={60} />,
+    icon: <FaCloud size={60} />,
     percentage: "20",
   },
 ];

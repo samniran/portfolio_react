@@ -4,10 +4,10 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./containers/home";
 import About from "./containers/about";
 import Portfolio from "./containers/portfolio";
-import Resume from "./containers/resume";
+
 import Navbar from "./components/navBar";
-import pageContents from "./components/pageHeaderContents";
-import { AnimatePresence } from "framer-motion";
+
+
 import ParticlesComponent from "./utils.js/particles";
 function App() {
   const location = useLocation();

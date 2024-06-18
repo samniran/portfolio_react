@@ -8,8 +8,8 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 
 const ParticlesComponent = (props) => {
-
-  const [init, setInit] = useState(false);
+// eslint-disable-next-line
+  const [init,setInit] = useState(false);
   // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
