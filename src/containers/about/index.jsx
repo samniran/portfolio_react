@@ -33,10 +33,10 @@ const About = () => {
             <p align="justify">
               I am an enthusiastic engineering student with a passion for
               frontend web development, video editing, and design. My technical
-              skills in HTML, CSS, and JavaScript, combined with my creativity,
+              skills in React JS, combined with my creativity,
               allow me to craft visually appealing and user-friendly web
               experiences. Additionally, I love creating engaging video content
-              and striking graphics.
+              and using Filmora, After Effects.
             </p>
           </div>
         </div>
